@@ -10,9 +10,9 @@ window.addEventListener("load", () => {
   localStorage.setItem("shippingFreePrice", shippingFreePrice);
 
   //set items to sessionStorage
-   sessionStorage.setItem("taxRate", taxRate);
-   sessionStorage.setItem("shippingPrice", shippingPrice);
-   sessionStorage.setItem("shippingFreePrice", shippingFreePrice);
+  sessionStorage.setItem("taxRate", taxRate);
+  sessionStorage.setItem("shippingPrice", shippingPrice);
+  sessionStorage.setItem("shippingFreePrice", shippingFreePrice);
 });
 
 const productsDiv = document.querySelector(".products");
